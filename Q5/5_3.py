@@ -4,8 +4,8 @@ from datasets import load_dataset
 from elasticsearch import Elasticsearch
 
 
-CLOUD_ID = "6d448564dea242e6ba3422425ef97ffd:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJGJmNTlkOTY5MmJlYjQyMDRiZDQ2ZWU3Y2M0NmY2OWRlJDJmMmJlZTFiYzMxYjQyN2Y5MWQ1Mzg2M2U4NmExZmUy"
-API_KEY = "NDd3YXlaRUJHUUhlczJ3bVpyQkg6Vkh5bWFLTFlUZjZmVnB3WDI4RXBQdw=="
+CLOUD_ID = "***"
+API_KEY = "***"
 
 es = Elasticsearch(
     cloud_id=CLOUD_ID,
